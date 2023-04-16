@@ -4,4 +4,5 @@
     <color name="PrimaryText">#4D4E68</color>
     <color name="PrimaryAppColor">#BBBFFF</color>
     <color name="BtnPrimary">#E5BBFF</color>
+    <color name="srcBtn">#FFDDBB</color>
 </resources>

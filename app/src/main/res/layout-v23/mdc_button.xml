@@ -24,7 +24,7 @@
         android:layout_below="@id/MDC1"
         android:layout_margin="22dp"
         android:id="@+id/btn_card">
-
+        
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -32,9 +32,9 @@
             android:textColor="@color/PrimaryText"
             android:textSize="17sp"
             android:layout_margin="12dp"/>
-
+        
     </com.google.android.material.card.MaterialCardView>
-
+    
     <com.google.android.material.textview.MaterialTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
         android:textStyle="bold"
         android:layout_marginStart="22sp"
         android:id="@+id/Example"/>
-
+    
     <com.google.android.material.button.MaterialButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -55,16 +55,58 @@
         android:text="@string/material_button"
         app:cornerRadius="15dp"
         android:textStyle="normal"
-        android:textColor="@color/PrimaryText"
+        android:textColor="@color/PrimaryView"
         android:textSize="17sp"
         app:backgroundTint="@color/BtnPrimary"
         android:id="@+id/MDCbtn"/>
-
+    
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/MDCbtn"
         android:contentDescription="@string/todo"
         android:layout_centerInParent="true"
-        android:layout_marginTop="12dp"/>
+        android:layout_marginTop="12dp"
+        android:foreground="@drawable/ic_ok"
+        android:foregroundGravity="center"
+        android:foregroundTint="@color/PrimaryView"
+        app:backgroundTint="@color/PrimaryAppColor"
+        app:rippleColor="@color/BtnPrimary"
+        android:id="@+id/floatingBtn"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/floatingBtn"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"
+        android:id="@+id/rdb">
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/MaterialRdb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/material_radiobutton"
+            app:buttonTint="@color/BtnPrimary"/>
+        <RadioButton
+            android:id="@+id/SimpleRdb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/simple_radiobutton"/>
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/source_code"
+        android:textColor="@color/PrimaryView"
+        android:textSize="22sp"
+        app:backgroundTint="@color/srcBtn"
+        app:cornerRadius="12dp"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rdb"
+        android:layout_marginTop="42dp"
+        android:id="@+id/btnSourceCode"
+        android:textStyle="bold"/>
 </RelativeLayout>

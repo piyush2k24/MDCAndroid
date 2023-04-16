@@ -6,4 +6,9 @@
     <string name="material_alertdialoguebox">Material AlertDialogueBox</string>
     <string name="material_datepicker">Material DatePicker</string>
     <string name="material_button">Material Button</string>
+    <string name="btn_info">Buttons allow users to take actions, and make choices, with a single tap.</string>
+    <string name="example">Example :</string>
+    <string name="material_radiobutton">Material RadioButton</string>
+    <string name="simple_radiobutton">Simple RadioButton</string>
+    <string name="source_code">Source Code</string>
 </resources>
