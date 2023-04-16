@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MDCAndroid</string>
+    <string name="material_widgets">Material Widgets</string>
+    <string name="mdcwidget">MDCWidget</string>
+    <string name="todo">TODO</string>
+    <string name="material_alertdialoguebox">Material AlertDialogueBox</string>
+    <string name="material_datepicker">Material DatePicker</string>
+    <string name="material_button">Material Button</string>
 </resources>
