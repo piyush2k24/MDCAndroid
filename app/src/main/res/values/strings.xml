@@ -11,4 +11,7 @@
     <string name="material_radiobutton">Material RadioButton</string>
     <string name="simple_radiobutton">Simple RadioButton</string>
     <string name="source_code">Source Code</string>
+    <string name="mtc_date">Date pickers let users select a date or range of dates.</string>
+    <string name="date">Choose Date</string>
+    <string name="mtc_text2">Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.</string>
 </resources>
